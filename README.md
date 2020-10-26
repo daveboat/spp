@@ -27,4 +27,6 @@ This module is written to accommodate two styles of feature concatenation:
 Note that, in the first case, the function would have no weights, and could therefore doesn't need to be represented as
 a Module, but in the second case, convolutions with weights are needed.
 
-This code was written and commented for minimalism and ease of understanding.
+This code was written and commented for minimalism and ease of understanding. Yes, it would be easier to do this with
+one of the Adaptive pooling functions, but I find that the mechanics of those functions are less visible than if we
+stick with doing the pooling size computations explicitly.
